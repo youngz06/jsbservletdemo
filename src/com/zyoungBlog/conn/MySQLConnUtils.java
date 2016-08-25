@@ -24,7 +24,7 @@ public class MySQLConnUtils {
         //This is necessary with Java (older)
         //Java6(or newer) automatically find the appropriate driver.
         //If you use java>5,the this line is not needed;
-//        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.jdbc.Driver");
         //URL Connection for MySql
         //Example:jdb:mysql://localhost:3306/simlehr
         String connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName;
