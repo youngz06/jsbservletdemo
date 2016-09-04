@@ -31,19 +31,19 @@ public class MyUtils {
     //Store user info in Session
     public static void storeLoginedUser(HttpSession session, UserAccount loginedUser) {
         //on the jsp can access ${loginedUser}
-        session.setAttribute("loginedUser", loginedUser);
+        session.setAttribute("userName", loginedUser);
     }
 
     //Get the user infomation stored in the session.
     public static UserAccount getLoginedUser(HttpSession session) {
-        UserAccount loginedUser = (UserAccount) session.getAttribute("loginedUser");
+        UserAccount loginedUser = (UserAccount) session.getAttribute("userName");
         return loginedUser;
     }
 
     //Store info in Cookie
     public static void storeUserCookie(HttpServletResponse response, UserAccount userAccount) {
         System.out.println("Store user cookie");
-        Cookie cookieUserName = new Cookie(ATT_NAME_USER_NAME, userAccount.getUsername());
+        Cookie cookieUserName = new Cookie(ATT_NAME_USER_NAME, userAccount.getUserName());
 
         //1 day (Conver to seconds)
         cookieUserName.setMaxAge((24 * 60 * 60));

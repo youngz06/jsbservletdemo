@@ -27,5 +27,6 @@ public class CreateProductServlet extends HttpServlet {
         RequestDispatcher dispatcher = request.getServletContext().getRequestDispatcher(
                 "/WEB-INF/views/createProductView.jsp");
         dispatcher.forward(request, response);
+
     }
 }

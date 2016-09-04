@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class DBUtils {
     public static UserAccount findUser(Connection connection,String userName,String password)throws SQLException {
-        String sql = "Select a.User_Name,a.Password,a.Gender from User_Account a" + "where a.User_Name = ? and a.password = ?";
+        String sql = "Select User_Name,Password,Gender from USER_ACCOUNT " + " where User_Name = ? and password = ?";
         PreparedStatement pstm = connection.prepareStatement(sql);
         pstm.setString(1, userName);
         pstm.setString(2, password);
@@ -24,7 +24,7 @@ public class DBUtils {
         if (rs.next()) {
             String gender = rs.getString("Gender");
             UserAccount user = new UserAccount();
-            user.setUsername(userName);
+            user.setUserName(userName);
             user.setPasswd(password);
             user.setGender(gender);
             return user;
@@ -33,7 +33,7 @@ public class DBUtils {
     }
     public static UserAccount findUser(Connection conn,String userName)throws  SQLException {
 
-        String sql = "Select a.User_Name,a.Password,a.Gender from Use_Account a " + "where a.User_Name = ?";
+        String sql = "Select USER_NAME,PASSWORd,GENDER from USER_ACCOUNT" + " where User_Name = ?";
 
         PreparedStatement pstm = conn.prepareStatement(sql);
         pstm.setString(1, userName);
@@ -43,7 +43,7 @@ public class DBUtils {
             String password = rs.getString("Password");
             String gender = rs.getString("Gender");
             UserAccount user = new UserAccount();
-            user.setUsername(userName);
+            user.setUserName(userName);
             user.setPasswd(password);
             user.setGender(gender);
             return user;
@@ -51,15 +51,15 @@ public class DBUtils {
         return null;
     }
     public static List<Product> querProduct(Connection conn) throws  SQLException {
-        String sql = "Select a.Code,a.Name,a.Price form Product a";
+        String sql = "Select Code,Name,Price from PRODUCT ";
         PreparedStatement pstm = conn.prepareStatement(sql);
 
         ResultSet rs = pstm.executeQuery();
         List<Product> list = new ArrayList<>();
         while (rs.next()) {
-            String code = rs.getString("Code");
-            String name = rs.getString("Name");
-            float price = rs.getFloat("Price");
+            String code = rs.getString("CODE");
+            String name = rs.getString("NAME");
+            float price = rs.getFloat("PRICE");
             Product product = new Product(code,name,price);
             product.setCode(code);
             product.setName(name);
@@ -70,7 +70,7 @@ public class DBUtils {
     }
 
     public static Product findProduct(Connection conn,String code) throws SQLException {
-        String sql = "Select a.Code, a.Name, a.Price from Product a where a.Code=?";
+        String sql = "Select Code, Name, Price from PRODUCT  where Code=?";
 
         PreparedStatement pstm = conn.prepareStatement(sql);
         pstm.setString(1, code);
@@ -87,7 +87,7 @@ public class DBUtils {
     }
 
     public static void updateProduct(Connection conn,Product product) throws  SQLException {
-        String sql = "Update Product set Name=?, Price=? where Code=?";
+        String sql = "Update PRODUCT set Name=?, Price=? where Code=?";
 
         PreparedStatement pstm = conn.prepareStatement(sql);
         pstm.setString(1, product.getName());
@@ -97,7 +97,7 @@ public class DBUtils {
     }
 
     public static void insertProduct(Connection conn,Product product) throws SQLException {
-        String sql = "Insert into Product(Code,Name,Price) values (?,?,?))";
+        String sql = "Insert into PRODUCT(Code,Name,Price) values (?,?,?))";
 
         PreparedStatement pstm = conn.prepareStatement(sql);
 
@@ -109,7 +109,7 @@ public class DBUtils {
     }
 
     public static void deleteProduct(Connection conn,String code) throws SQLException {
-        String sql = "Delete Product where Code= ?";
+        String sql = "Delete PRODUCT where Code= ?";
         PreparedStatement pstm = conn.prepareStatement(sql);
 
         pstm.setString(1,code);

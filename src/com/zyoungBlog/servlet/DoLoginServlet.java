@@ -60,7 +60,7 @@ public class DoLoginServlet extends HttpServlet {
         //if error,forward to /WEB-INF/views/login.jsp
         if (hasError) {
             user = new UserAccount();
-            user.setUsername(userName);
+            user.setUserName(userName);
             user.setPasswd(password);
 
             //Store information in request attribute,before forward

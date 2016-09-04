@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //Forwar to /WEB-INF/views/loginView.jsp
+        //Forward to /WEB-INF/views/loginView.jsp
         //(Users can not access directly into JSP pages placed in WEB-INF
         RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/WEB-INF/views/loginView.jsp");
         dispatcher.forward(req, resp);

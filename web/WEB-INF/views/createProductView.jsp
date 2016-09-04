@@ -20,7 +20,7 @@
 
     <p style="color: red;">${errorString}</p>
 
-    <form method="post" actioin="doCreateProduct">
+    <form method="post" action="doCreateProduct">
         <table border="0">
             <tr>
                 <td>Code</td>
