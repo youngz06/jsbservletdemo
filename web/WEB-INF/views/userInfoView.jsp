@@ -19,6 +19,8 @@
 
     <h3>Hello: <b>${user.userName}</b></h3>
     User Name: <b>${user.userName}</b>
+    <b>this is a test</b>
+    <b><c:out value="this is a test"></c:out></b>
     <br/>
     Gender: ${user.gender}<br/>
     <jsp:include page="_footer.jsp"></jsp:include>
