@@ -4,14 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/zyoungBlog/utils/MyUtils.java" line="67" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8add18cc-3239-4d4d-9a1f-34884cdd5112" name="Default" comment="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;solve some problems...">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="8add18cc-3239-4d4d-9a1f-34884cdd5112" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/views/dleteProductErrorView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/deleteProductErrorView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/zyoungBlog/servlet/EditProductServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/zyoungBlog/servlet/EditProductServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/zyoungBlog/utils/DBUtils.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/zyoungBlog/utils/DBUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/blog_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/blog_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.iml" afterPath="$PROJECT_DIR$/blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zyoungBlog/servlet/EditProductServlet.java" afterPath="$PROJECT_DIR$/src/com/zyoungBlog/servlet/EditProductServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zyoungBlog/utils/DBUtils.java" afterPath="$PROJECT_DIR$/src/com/zyoungBlog/utils/DBUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/_menu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/_menu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/userInfoView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/userInfoView.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,18 +41,8 @@
       <file leaf-file-name="DoCreateProductServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoCreateProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-345">
               <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductListServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/ProductListServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,31 +51,39 @@
       <file leaf-file-name="productListView.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="215">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userInfoView.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/userInfoView.jsp">
+      <file leaf-file-name="EditProductServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/EditProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="104">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/utils/MyUtils.java">
+      <file leaf-file-name="editProductView.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/editProductView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoEditProductServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoEditProductServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,12 +118,9 @@
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/package-info.java" />
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/filter/CookieFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/_header.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/_menu.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/_footer.jsp" />
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/HomeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoCreateProductServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/EditProductServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoEditProductServlet.java" />
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/DeleteProductServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/dleteProductErrorView.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/editProductView.jsp" />
@@ -142,10 +139,13 @@
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoLoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/utils/MyUtils.java" />
         <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/UserInfoServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/zyoungBlog/utils/DBUtils.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/userInfoView.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/_menu.jsp" />
+        <option value="$PROJECT_DIR$/src/com/zyoungBlog/utils/DBUtils.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp" />
+        <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoEditProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/zyoungBlog/servlet/EditProductServlet.java" />
       </list>
     </option>
   </component>
@@ -286,7 +286,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,6 +304,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zyoungBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zyoungBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zyoungBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zyoungBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zyoungBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -312,7 +418,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
@@ -320,7 +426,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="loop&#9;FILE&#9;jar:///home/youngz/.ideaLibSources/javax.servlet.jsp.jstl-api-1.2.1-sources.jar!/javax/servlet/jsp/jstl/core/LoopTag.java&#10;forec&#9;FILE&#9;jar:///opt/software/java/jdk1.8.0_91/jre/lib/rt.jar!/com/sun/org/apache/xalan/internal/xsltc/compiler/ForEach.class&#10;use&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/userInfoView.jsp&#10;produc&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/productListView.jsp&#10;pro&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoCreateProductServlet.java&#10;product&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/beans/Product.java&#10;jdbc&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/filter/JDBCFilter.java&#10;userinfo&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/UserInfoServlet.java&#10;userinfov&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/userInfoView.jsp&#10;loginview&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/loginView.jsp&#10;fil&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/filter/JDBCFilter.java&#10;findUser&#9;PSI&#9;JAVA://com.zyoungBlog.utils.DBUtils#findUser&#10;lo&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/loginView.jsp&#10;do&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoLoginServlet.java&#10;doL&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoLoginServlet.java&#10;login&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/loginView.jsp&#10;jdb&#9;PSI&#9;JAVA://com.zyoungBlog.filter.JDBCFilter&#10;myu&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/utils/MyUtils.java&#10;Con&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/conn/ConnectionUtils.java&#10;Mysq&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/conn/MySQLConnUtils.java" />
+    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/productListView.jsp&#10;PRO&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/productListView.jsp&#10;edit&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoEditProductServlet.java&#10;my&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/utils/MyUtils.java&#10;crea&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoCreateProductServlet.java&#10;loop&#9;FILE&#9;jar:///home/youngz/.ideaLibSources/javax.servlet.jsp.jstl-api-1.2.1-sources.jar!/javax/servlet/jsp/jstl/core/LoopTag.java&#10;forec&#9;FILE&#9;jar:///opt/software/java/jdk1.8.0_91/jre/lib/rt.jar!/com/sun/org/apache/xalan/internal/xsltc/compiler/ForEach.class&#10;use&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/userInfoView.jsp&#10;produc&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/productListView.jsp&#10;product&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/beans/Product.java&#10;jdbc&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/filter/JDBCFilter.java&#10;userinfo&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/UserInfoServlet.java&#10;userinfov&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/userInfoView.jsp&#10;loginview&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/loginView.jsp&#10;fil&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/filter/JDBCFilter.java&#10;findUser&#9;PSI&#9;JAVA://com.zyoungBlog.utils.DBUtils#findUser&#10;lo&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/loginView.jsp&#10;do&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoLoginServlet.java&#10;doL&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/servlet/DoLoginServlet.java&#10;login&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/web/WEB-INF/views/loginView.jsp&#10;jdb&#9;PSI&#9;JAVA://com.zyoungBlog.filter.JDBCFilter&#10;myu&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/utils/MyUtils.java&#10;Con&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/conn/ConnectionUtils.java&#10;Mysq&#9;FILE&#9;file:///home/youngz/IdeaProjects/blog/src/com/zyoungBlog/conn/MySQLConnUtils.java" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="71" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="87" />
@@ -777,7 +883,7 @@
     </configuration>
     <configuration default="false" name="blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="blog:war exploded">
           <settings>
@@ -786,7 +892,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -795,7 +901,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="43277" />
+        <option name="DEBUG_PORT" value="37993" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -843,12 +949,14 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blog:war exploded" />
+        </option>
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.blog" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FirstExample" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FirstExample" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.blog" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -895,7 +1003,7 @@
       <workItem from="1473137073536" duration="300000" />
       <workItem from="1473137392056" duration="675000" />
       <workItem from="1473138314975" duration="4131000" />
-      <workItem from="1473142484492" duration="4642000" />
+      <workItem from="1473142484492" duration="8247000" />
     </task>
     <task id="LOCAL-00001" summary="first push&#10;---&#10;taglib error &#10;----&#10;deleteProduct not finished">
       <created>1472053367593</created>
@@ -918,11 +1026,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472991852317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;solve some problems...&#10;----------------------------&#10;productlist wrong">
+      <created>1473147426789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1473147426789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98428000" />
+    <option name="totallyTimeSpent" value="102033000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1012,7 +1127,8 @@
     <MESSAGE value="first push&#10;---&#10;taglib error &#10;----&#10;deleteProduct not finished" />
     <MESSAGE value="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;" />
     <MESSAGE value="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;solve some problems..." />
-    <option name="LAST_COMMIT_MESSAGE" value="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;solve some problems..." />
+    <MESSAGE value="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;solve some problems...&#10;----------------------------&#10;productlist wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="second push&#10;---&#10;taglib error //solved &#10;----&#10;deleteProduct not finished//solved&#10;---&#10;the blog deploy successfully,and website could be access.but some sites return 404&amp;500.&#10;--------------------------&#10;solve some problems...&#10;----------------------------&#10;productlist wrong" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,53 +1141,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/_footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/dleteProductErrorView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/editProductView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/filter/EncondingFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/conn/SQLServerSonnUtils_SQLJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/filter/CookieFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/homeView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/createProductView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1096,13 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/software/java/jdk1.8.0_91/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/com/zyoungBlog/conn/ConnectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1121,13 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/conn/ConnectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1194,13 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoEditProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="69" column="72" selection-start-line="69" selection-start-column="72" selection-end-line="69" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/software/java/jdk1.8.0_91/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1219,23 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/utils/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1472991496805" expanded="true" signature="483:576" ph="Select a.Use... USER_ACCOUNT" />
-            <marker date="1472991496805" expanded="true" signature="1185:1260" ph="Select a.Use... User_Account" />
-            <marker date="1472991496805" expanded="true" signature="1872:1907" ph="Select Code,... PRODUCT" />
-            <marker date="1472991496805" expanded="true" signature="1872:1908" ph="Select a.Cod... " />
-            <marker date="1472991496805" expanded="true" signature="2584:2635" ph="Select a.Cod... Product" />
-            <marker date="1472991496805" expanded="true" signature="3146:3193" ph="Update Produ... " />
-            <marker date="1472991496805" expanded="true" signature="3552:3604" ph="Insert into Product... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,23 +1331,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoCreateProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/utils/MyUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1357,14 +1378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/ProductListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/software/java/jdk1.8.0_91/src.zip!/java/util/regex/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1391,18 +1404,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/userInfoView.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="245">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/userInfoView.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/ProductListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="486">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/homeView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/_header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/_menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoCreateProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/utils/MyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/conn/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/software/java/jdk1.8.0_91/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/deleteProductErrorView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/productListView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/createProductView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/utils/DBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+          <folding>
+            <marker date="1473151554555" expanded="true" signature="483:576" ph="Select a.Use... USER_ACCOUNT" />
+            <marker date="1473151554555" expanded="true" signature="1185:1260" ph="Select a.Use... User_Account" />
+            <marker date="1473151554555" expanded="true" signature="1872:1907" ph="Select Code,... PRODUCT" />
+            <marker date="1473151554555" expanded="true" signature="1872:1908" ph="Select a.Cod... " />
+            <marker date="1473151554555" expanded="true" signature="2584:2635" ph="Select a.Cod... Product" />
+            <marker date="1473151554555" expanded="true" signature="3146:3193" ph="Update Produ... " />
+            <marker date="1473151554555" expanded="true" signature="3552:3603" ph="Insert into Product... " />
+            <marker date="1473151554555" expanded="true" signature="3960:3993" ph="Delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/DoEditProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zyoungBlog/servlet/EditProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/editProductView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding />
         </state>
       </provider>

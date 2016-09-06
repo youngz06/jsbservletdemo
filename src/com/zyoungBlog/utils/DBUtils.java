@@ -97,7 +97,7 @@ public class DBUtils {
     }
 
     public static void insertProduct(Connection conn,Product product) throws SQLException {
-        String sql = "Insert into PRODUCT(Code,Name,Price) values (?,?,?))";
+        String sql = "insert into PRODUCT(Code,Name,Price) values (?,?,?)";
 
         PreparedStatement pstm = conn.prepareStatement(sql);
 
@@ -109,7 +109,7 @@ public class DBUtils {
     }
 
     public static void deleteProduct(Connection conn,String code) throws SQLException {
-        String sql = "Delete PRODUCT where Code= ?";
+        String sql = "Delete from PRODUCT where Code= ?";
         PreparedStatement pstm = conn.prepareStatement(sql);
 
         pstm.setString(1,code);

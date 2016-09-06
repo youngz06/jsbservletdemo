@@ -17,7 +17,7 @@ import java.sql.SQLException;
 /**
  * Created by youngz on 16-8-24.
  */
-@WebServlet(name = "EditProductServlet")
+@WebServlet(name = "EditProductServlet",urlPatterns = "/editProduct")
 public class EditProductServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
